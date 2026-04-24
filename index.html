@@ -307,6 +307,8 @@
 </div>
 
 <script>
+document.addEventListener('DOMContentLoaded', function() {
+
 var WEBHOOK = 'https://script.google.com/macros/s/AKfycbxPuQuEqXlKbHX0EJaGL-YB7DvM7lgDrhvGWamuiRBZanOGqUjQkLKYmRD8yeXdb3A_Mw/exec';
 
 document.querySelectorAll('.reason-btn').forEach(function(btn) {
@@ -374,6 +376,8 @@ document.getElementById('submitBtn').addEventListener('click', function() {
     btn.disabled = false;
     btn.textContent = 'SUBMIT';
   });
+});
+
 });
 </script>
 </body>
